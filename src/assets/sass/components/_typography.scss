@@ -1,0 +1,68 @@
+
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: $base-typo-color;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 95px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}

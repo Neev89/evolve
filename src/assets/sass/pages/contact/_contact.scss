@@ -1,0 +1,133 @@
+
+.contact {
+  position: relative;
+  padding-top: 80px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .map {
+    p {
+      margin-bottom: 50px;
+    }
+  }
+
+  @include e('grid') {
+    position: relative;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .col-xsmall-12.col-small-6 {
+    margin-bottom: 0;
+  }
+
+  address {
+    h4 {
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 45px;
+    }
+  }
+
+  .information {
+    padding-top: 60px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.social {
+  margin-top: 45px;
+
+  li {
+    margin-bottom: 50px;
+    padding-left: 45px;
+
+    a {
+      position: relative;
+      padding-left: 40px;
+
+      &:before {
+        content:'';
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-size: 23px;
+        background-repeat: no-repeat;
+      }
+
+      &.location {
+        &:before {
+          background-image: url('../../images/ic_linkedin-square.svg');
+        }
+      }
+
+      &.mail {
+        &:before {
+          background-image: url('../../images/ic_linkedin-square.svg');
+        }
+      }
+
+      &.linkedin {
+        &:before {
+          background-image: url('../../images/ic_linkedin-square.svg');
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.contact-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+}
+
+address {
+  font-style: normal;
+}
+
+.address, .copyright {
+  padding-left: 50px;
+}
+
+.copyright {
+  position: relative;
+  flex: 1;
+  p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #000;
+  }
+
+  .chat-bubble {
+    top: -50px;
+    right: 0;
+    position: absolute;
+    @include hide-text();
+    width: 80px;
+    height: 80px;
+    background: url('../../images/ic_chatbubble.svg') no-repeat;
+    background-size: 80px;
+  }
+}

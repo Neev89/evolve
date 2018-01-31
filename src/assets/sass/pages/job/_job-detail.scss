@@ -1,0 +1,54 @@
+.job-wrap {
+  &.detail {
+    .job-heading {
+      position: relative;
+      padding-left: 100px;
+
+      &.icon {
+        &:before {
+          content: '';
+          position: absolute;
+          width: 68px;
+          height: 68px;
+          display: inline-block;
+          top: 100px;
+          left: 0;
+          background-repeat: no-repeat;
+          background-size: 68px;
+        }
+
+        &.project-software-icon {
+          &:before {
+            background-image: url("../../images/handshake.svg");
+          }
+        }
+
+        &.project-frontend-icon {
+          &:before {
+            background-image: url("../../images/bulb.svg");
+          }
+        }
+
+        &.project-mobile-icon {
+          &:before {
+            background-image: url("../../images/checklist.svg");
+          }
+        }
+      }
+
+      h1 {
+        font-size: 36px;
+        line-height: 51px;
+        font-weight: normal;
+        margin-bottom: 44px;
+      }
+
+      p {
+        margin-bottom: 35px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

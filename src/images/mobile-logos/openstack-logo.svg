@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="185px" height="181px" viewBox="0 0 185 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>OpenStack_Logo_Mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.647 184.278 0.647 184.278 180.94 0 180.94"></polygon>
+    </defs>
+    <g id="logos/OpenStack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OpenStack_Logo_Mark">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M184.278,58.116 L142.663,58.116 L142.663,51.524 C142.663,46.409 138.517,42.263 133.402,42.263 L50.876,42.263 C45.762,42.263 41.616,46.409 41.616,51.524 L41.616,58.116 L0,58.116 L0,17.769 C0,8.352 7.705,0.647 17.122,0.647 L167.157,0.647 C176.574,0.647 184.278,8.352 184.278,17.769 L184.278,58.116" id="Fill-1" fill="#D92743" mask="url(#mask-2)"></path>
+            <path d="M167.157,181 L17.122,181 C7.705,181 0,173.295 0,163.878 L0,123.531 L41.616,123.531 L41.616,130.123 C41.616,135.238 45.762,139.384 50.877,139.384 L133.402,139.384 C138.517,139.384 142.663,135.238 142.663,130.123 L142.663,123.531 L184.278,123.531 L184.278,163.878 C184.278,173.295 176.574,181 167.157,181" id="Fill-3" fill="#D92743" mask="url(#mask-2)"></path>
+            <polygon id="Fill-5" fill="#D92743" mask="url(#mask-2)" points="0 111.631 41.616 111.631 41.616 70.015 0 70.015"></polygon>
+            <polygon id="Fill-6" fill="#D92743" mask="url(#mask-2)" points="142.663 111.631 184.278 111.631 184.278 70.015 142.663 70.015"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+.application-form {
+  background: rgba(245, 247, 249, 0.2);
+  padding: 80px;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  .form {
+    @include e('inline') {
+      margin-top: 80px;
+    }
+
+    @include e('title') {
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      padding-bottom: 48px;
+      border-bottom: 1px solid rgba(216,216,216,0.2);
+    }
+  }
+}

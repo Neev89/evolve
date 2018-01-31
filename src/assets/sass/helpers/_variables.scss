@@ -1,0 +1,66 @@
+//Custom-google-fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Poppins:300,400,500,600,700');
+
+//Color-palette
+$dark-black: #000;
+$black: #4A4A4A;
+$grey: #ccc;
+$light-grey: #d4d4d4;
+$white: #fff;
+$yellow: #ff0;
+$green: #8bc34a;
+$light-green: #00C894;
+$blue: #00AEFF;
+$dark-blue: #1F2D3D;
+$orange: #f87d09;
+$pink: #e91e63;
+$dark-pink: #E02386;
+$purple: #9c27b0;
+$light-purple: #efedff;
+
+//InitialValues
+$text-color: $black;
+$link-color: $black;
+$link-color-hover: $dark-black;
+$brand-color: $dark-pink;
+$secondary-color: $blue;
+$typo-color: $dark-blue;
+
+// Base-colors
+$base-brand-color: $brand-color;
+$base-secondary-color: $secondary-color;
+$base-text-color: $text-color;
+$base-link-color: $link-color;
+$base-link-color-hover: $link-color-hover;
+$base-typo-color: $typo-color;
+
+
+//Body
+$main-background: $white;
+
+//Buttons
+//Buttons-Types
+$button-primary-bg-color: $black;
+$button-info-bg-color: $blue;
+$button-danger-bg-color: $dark-pink;
+$button-warning-bg-color: $orange;
+$button-success-bg-color: $green;
+
+//Buttons-Size
+$button-padding-vertical: 10px;
+$button-padding-horizontal: 15px;
+
+// Typography
+$base-font-family: 'Open Sans', sans-serif;
+
+// Tooltips
+//Primary-color
+$tooltip-base-text-color: $white;
+$tooltip-base-bg-color: $black;
+$tooltip-base-border-color: $black;
+//Types
+$tooltip-invert-bg-color: $grey;
+$tooltip-success-bg-color: $green;
+$tooltip-info-bg-color: $blue;
+$tooltip-warning-bg-color: $orange;
+$tooltip-danger-bg-color: $dark-pink;
