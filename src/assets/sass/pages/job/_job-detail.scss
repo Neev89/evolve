@@ -2,7 +2,11 @@
   &.detail {
     .job-heading {
       position: relative;
-      padding-left: 100px;
+      padding-left: 0;
+
+      @include mq('tablet') {
+        padding-left: 100px;
+      }
 
       &.icon {
         &:before {
@@ -10,11 +14,15 @@
           position: absolute;
           width: 68px;
           height: 68px;
-          display: inline-block;
           top: 100px;
           left: 0;
           background-repeat: no-repeat;
           background-size: 68px;
+          display: none;
+
+          @include mq('tablet') {
+            display: inline-block;
+          }
         }
 
         &.project-software-icon {
@@ -37,14 +45,25 @@
       }
 
       h1 {
-        font-size: 36px;
-        line-height: 51px;
+        font-size: 28px;
+        line-height: 36px;
         font-weight: normal;
-        margin-bottom: 44px;
+        margin-bottom: 20px;
+
+        @include mq('tablet') {
+          font-size: 36px;
+          line-height: 51px;
+          margin-bottom: 44px;
+        }
       }
 
       p {
-        margin-bottom: 35px;
+        margin-bottom: 15px;
+
+        @include mq('tablet') {
+          margin-bottom: 35px;
+        }
+
         &:last-child {
           margin-bottom: 0;
         }

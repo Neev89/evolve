@@ -1,7 +1,11 @@
 
 .contact {
   position: relative;
-  padding-top: 80px;
+  padding-top: 40px;
+
+  @include mq('tablet') {
+    padding-top: 80px;
+  }
 
   img {
     display: block;
@@ -10,7 +14,11 @@
 
   .map {
     p {
-      margin-bottom: 50px;
+      margin-bottom: 25px;
+
+      @include mq('tablet') {
+        margin-bottom: 50px;
+      }
     }
   }
 
@@ -37,23 +45,36 @@
   }
 
   .information {
-    padding-top: 60px;
+    padding-top: 30px;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    @include mq('tablet') {
+      padding-top: 60px;
+    }
   }
 }
 
 .social {
-  margin-top: 45px;
+  margin-top: 30px;
+
+  @include mq('tablet') {
+    margin-top: 45px;
+  }
 
   li {
-    margin-bottom: 50px;
-    padding-left: 45px;
+    margin-bottom: 25px;
+
+    @include mq('tablet') {
+      padding-left: 45px;
+      margin-bottom: 50px;
+    }
 
     a {
       position: relative;
       padding-left: 40px;
+      display: inline-block;
 
       &:before {
         content:'';
@@ -97,6 +118,11 @@
   bottom: 0;
   left: 0;
   width: 300px;
+  display: none;
+
+  @include mq('tablet') {
+    display: block;
+  }
 }
 
 address {
@@ -104,15 +130,26 @@ address {
 }
 
 .address, .copyright {
-  padding-left: 50px;
+  padding: 0;
+
+  @include mq('tablet') {
+    padding-left: 50px;
+  }
 }
 
 .copyright {
   position: relative;
   flex: 1;
+  margin: 30px 0 20px;
+
+  @include mq('tablet') {
+    margin: 0;
+  }
+
   p {
     font-size: 14px;
     line-height: 19px;
+    margin: 0;
   }
 
   strong {
@@ -121,13 +158,18 @@ address {
   }
 
   .chat-bubble {
-    top: -50px;
-    right: 0;
+    top: -60px;
+    right: -10px;
     position: absolute;
     @include hide-text();
     width: 80px;
     height: 80px;
     background: url('../../images/ic_chatbubble.svg') no-repeat;
     background-size: 80px;
+
+    @include mq('tablet') {
+      top: -50px;
+      right: 0;
+    }
   }
 }

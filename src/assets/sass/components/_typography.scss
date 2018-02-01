@@ -7,15 +7,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 72px;
-  line-height: 95px;
+  font-size: 36px;
+  line-height: 50px;
   font-weight: 600;
+
+  @include mq('tablet') {
+    font-size: 72px;
+    line-height: 95px;
+  }
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 51px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: normal;
+
+  @include mq('tablet') {
+    font-size: 36px;
+    line-height: 51px;
+  }
 }
 
 h3 {
@@ -65,4 +75,14 @@ abbr {
 
 abbr[title]:hover {
   cursor: help;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+
+  @include mq('tablet') {
+    font-size: 18px;
+    line-height: 35px;
+  }
 }

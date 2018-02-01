@@ -29,7 +29,7 @@ const Contact = () => (
                                     <ul className="social">
                                         <li><a className="location">7th Floor, Trade Tower, Thapathali, Kathmandu</a></li>
                                         <li><a className="mail" href="mailto:info@evolveasia.co">info@evolveasia.co</a></li>
-                                        <li><a className="linkedin" href="mailto:info@evolveasia.co">info@evolveasia.co</a></li>
+                                        <li><a className="linkedin" href="https://www.linkedin.com/company/13624262/">Linkedin evolve</a></li>
                                     </ul>
                                 </address>
                             </div>

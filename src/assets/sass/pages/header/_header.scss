@@ -1,3 +1,7 @@
 .header {
-  padding: 40px;
+  padding: 20px;
+
+  @include mq('tablet') {
+    padding: 40px;
+  }
 }

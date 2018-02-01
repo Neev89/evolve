@@ -1,19 +1,39 @@
 .application-form {
   background: rgba(245, 247, 249, 0.2);
-  padding: 80px;
+  padding: 20px;
   border: 1px solid rgba(151, 151, 151, 0.2);
+
+  @include mq('tablet') {
+    padding: 40px;
+  }
+
+  @include mq('tablet-wide') {
+    padding: 80px;
+  }
+
+
   .form {
     @include e('inline') {
-      margin-top: 80px;
+      margin-top: 40px;
+
+      @include mq('tablet') {
+        margin-top: 80px;
+      }
     }
 
     @include e('title') {
-      font-size: 24px;
-      line-height: 33px;
+      font-size: 18px;
+      line-height: 26px;
       font-weight: bold;
       font-family: "Open Sans", sans-serif;
-      padding-bottom: 48px;
+      padding-bottom: 20px;
       border-bottom: 1px solid rgba(216,216,216,0.2);
+
+      @include mq('tablet') {
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 48px;
+      }
     }
   }
 }
