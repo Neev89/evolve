@@ -82,9 +82,9 @@
 .hero-image {
   position: absolute;
   top: -90px;
-  right: 0;
+  right: -175px;
   text-align: right;
-  width: 135px;
+  width: 100%;
 
   img {
     width: 100%;
@@ -92,16 +92,28 @@
     object-fit: cover;
   }
 
+  @include mq('phone-wide') {
+    right: -160px;
+  }
+
   @include mq('tablet') {
     position: absolute;
     top: -130px;
     bottom: 0;
-    right: -100px;
+    right: -250px;
     width: auto;
 
     img {
       width: auto;
     }
+  }
+
+  @include mq('tablet-wide') {
+    right: -220px;
+  }
+
+  @include mq('desktop') {
+    right: -100px;
   }
 }
 

@@ -1,0 +1,13 @@
+.error {
+  &-container {
+    height: calc(100vh - 130px);
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include e('inner') {
+    text-align: center;
+  }
+}

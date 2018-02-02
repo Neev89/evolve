@@ -1,6 +1,7 @@
 import React from 'react'
 
 import TechShape from '../../images/tech-bg-shape.png'
+
 import AndroidLogo from '../../images/mobile-logos/android-logo.svg'
 import IosLogo from '../../images/mobile-logos/apple-ios-logo.svg'
 import KotlinLogo from '../../images/mobile-logos/kotlin-logo.svg'
@@ -52,25 +53,25 @@ const Technologies = props => (
                                         <li><img src={SwiftLogo} alt="Swift Logo"/></li>
                                     </ul>
                                 </div>
-                                <div className="content">
-                                    <h6>Web Development</h6>
-                                    <ul>
-                                        <li><img src={ReactiveX} alt="Reactivex Logo"/></li>
-                                        <li><img src={SwiftLogo} alt="Swift Logo"/></li>
-                                        <li><img src={AndroidLogo} alt="Android Logo"/></li>
-                                        <li><img src={IosLogo} alt="IOS Logo"/></li>
-                                        <li><img src={KotlinLogo} alt="Kotlin Logo"/></li>
-                                        <li><img src={ReactiveX} alt="Reactivex Logo"/></li>
-                                        <li><img src={SwiftLogo} alt="Swift Logo"/></li>
-                                        <li><img src={AndroidLogo} alt="Android Logo"/></li>
-                                        <li><img src={IosLogo} alt="IOS Logo"/></li>
-                                        <li><img src={KotlinLogo} alt="Kotlin Logo"/></li>
-                                        <li><img src={ReactiveX} alt="Reactivex Logo"/></li>
-                                        <li><img src={SwiftLogo} alt="Swift Logo"/></li>
-                                        <li><img src={KotlinLogo} alt="Kotlin Logo"/></li>
+                                {/*<div className="content">*/}
+                                    {/*<h6>Web Development</h6>*/}
+                                    {/*<ul>*/}
+                                        {/*<li><img src={ReactiveX} alt="Reactivex Logo"/></li>*/}
+                                        {/*<li><img src={SwiftLogo} alt="Swift Logo"/></li>*/}
+                                        {/*<li><img src={AndroidLogo} alt="Android Logo"/></li>*/}
+                                        {/*<li><img src={IosLogo} alt="IOS Logo"/></li>*/}
+                                        {/*<li><img src={KotlinLogo} alt="Kotlin Logo"/></li>*/}
+                                        {/*<li><img src={ReactiveX} alt="Reactivex Logo"/></li>*/}
+                                        {/*<li><img src={SwiftLogo} alt="Swift Logo"/></li>*/}
+                                        {/*<li><img src={AndroidLogo} alt="Android Logo"/></li>*/}
+                                        {/*<li><img src={IosLogo} alt="IOS Logo"/></li>*/}
+                                        {/*<li><img src={KotlinLogo} alt="Kotlin Logo"/></li>*/}
+                                        {/*<li><img src={ReactiveX} alt="Reactivex Logo"/></li>*/}
+                                        {/*<li><img src={SwiftLogo} alt="Swift Logo"/></li>*/}
+                                        {/*<li><img src={KotlinLogo} alt="Kotlin Logo"/></li>*/}
 
-                                    </ul>
-                                </div>
+                                    {/*</ul>*/}
+                                {/*</div>*/}
                                 <div className="content">
                                     <h6>UI/UX</h6>
                                     <ul>
