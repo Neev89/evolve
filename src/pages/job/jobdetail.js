@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import JobBannerShape from '../images/banner/hiring-bg-shape.png'
+import JobBannerShape from '../../images/banner/hiring-bg-shape.png'
 
 
-import Contact from '../components/Contact'
+import Contact from '../../components/Contact'
 
 const JobDetail = () => (
     <div>
         <section className="job-wrap detail">
             <div className="job-wrap__inner">
-                <div className="job-heading icon project-software-icon">
+                <div className="job-heading icon position-software-icon">
                     <h1>Senior Software Engineer</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

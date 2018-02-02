@@ -1,56 +1,56 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e9cc061d9fc3b21f4baa.js",
-      "component---src-pages-index-js-e9cc061d9fc3b21f4baa.js.map"
+      "component---src-pages-index-js-bd8377b96a962e24f2ff.js",
+      "component---src-pages-index-js-bd8377b96a962e24f2ff.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "component---src-pages-jobdetail-js": [
-      "component---src-pages-jobdetail-js-5d756bb6049b1e33ca2b.js",
-      "component---src-pages-jobdetail-js-5d756bb6049b1e33ca2b.js.map"
+    "path---job-joblist": [
+      "path---job-joblist-a0e39f21c11f6a62c5ab.js",
+      "path---job-joblist-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8224eea8fcadb01d96bd.js",
-      "component---src-layouts-index-js-8224eea8fcadb01d96bd.js.map"
+      "component---src-layouts-index-js-93a0e726447dc90b41c0.js",
+      "component---src-layouts-index-js-93a0e726447dc90b41c0.js.map"
+    ],
+    "component---src-pages-job-jobdetail-js": [
+      "component---src-pages-job-jobdetail-js-8254ce162f0cd8166139.js",
+      "component---src-pages-job-jobdetail-js-8254ce162f0cd8166139.js.map"
+    ],
+    "path---job-jobdetail": [
+      "path---job-jobdetail-a0e39f21c11f6a62c5ab.js",
+      "path---job-jobdetail-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---joblist": [
-      "path---joblist-a0e39f21c11f6a62c5ab.js",
-      "path---joblist-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-5be44a2800f849026c87.js",
+      "path---index-5be44a2800f849026c87.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-50a446a401f7cf980a6f.js",
-      "commons-50a446a401f7cf980a6f.js.map"
+      "commons-961887d3f3b2d16d5e81.js",
+      "commons-961887d3f3b2d16d5e81.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---jobdetail": [
-      "path---jobdetail-a0e39f21c11f6a62c5ab.js",
-      "path---jobdetail-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "app": [
-      "app-0ddf96006bed8bab4d3c.js",
-      "app-0ddf96006bed8bab4d3c.js.map"
-    ],
-    "component---src-pages-joblist-js": [
-      "component---src-pages-joblist-js-175b87331a6d373d6450.js",
-      "component---src-pages-joblist-js-175b87331a6d373d6450.js.map"
+      "app-eb29d022c6cced488662.js",
+      "app-eb29d022c6cced488662.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-job-joblist-js": [
+      "component---src-pages-job-joblist-js-faa4ddbbea91f7acb32a.js",
+      "component---src-pages-job-joblist-js-faa4ddbbea91f7acb32a.js.map"
     ]
   }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import MapImg from "../../images/map.png"
 import ContactBg from "../../images/contact-bg-shape.png"
-import LinkedinIcon from "../../images/ic_linkedin-square.svg"
+import LinkedinIcon from "../../images/icons/ic_linkedin-square.svg"
 
 
 const Contact = () => (
@@ -29,7 +29,7 @@ const Contact = () => (
                                     <ul className="social">
                                         <li><a className="location">7th Floor, Trade Tower, Thapathali, Kathmandu</a></li>
                                         <li><a className="mail" href="mailto:info@evolveasia.co">info@evolveasia.co</a></li>
-                                        <li><a className="linkedin" href="https://www.linkedin.com/company/13624262/">Linkedin evolve</a></li>
+                                        <li><a className="linkedin" href="https://www.linkedin.com/company/13624262/">Linkedin</a></li>
                                     </ul>
                                 </address>
                             </div>
@@ -46,3 +46,4 @@ const Contact = () => (
 )
 
 export default Contact
+

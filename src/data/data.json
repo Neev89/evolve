@@ -1,0 +1,25 @@
+{
+  "frontPage": {
+    "heroTitle": "Building effective distribution.",
+    "whatWeDo": {
+      "description": "Evolve was founded to build technology platforms that enable FMCG distribution businesses to streamline and optimize operations",
+      "linkText": [
+        {
+          "text": "Continuously monitor and measure visibility"
+        },
+        {
+          "text": "Provide a wealth of metrics and reporting capabilities at a granular level"
+        },
+        {
+          "text": "Standardize and drive compliance in sales fundamentals, merchandising, billing and delivery"
+        },
+        {
+          "text": "Develop right GTM plans"
+        },
+        {
+          "text": "Effectively execute and manage sales and market support activities"
+        }
+      ]
+    }
+  }
+}

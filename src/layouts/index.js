@@ -9,7 +9,7 @@ import '../assets/sass/app.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Evolve"
+      title="Evolve Pvt Ltd"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },

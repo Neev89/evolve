@@ -47,10 +47,10 @@
   .information {
     padding-top: 30px;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
 
     @include mq('tablet') {
+      display: flex;
+      flex-wrap: wrap;
       padding-top: 60px;
     }
   }
@@ -74,6 +74,7 @@
     a {
       position: relative;
       padding-left: 40px;
+      line-height: 24px;
       display: inline-block;
 
       &:before {
@@ -90,19 +91,20 @@
 
       &.location {
         &:before {
-          background-image: url('../../images/ic_linkedin-square.svg');
+          background-image: url('../../images/icons/ic_location.png');
+          background-size: 16px;
         }
       }
 
       &.mail {
         &:before {
-          background-image: url('../../images/ic_linkedin-square.svg');
+          background-image: url('../../images/icons/ic_email.png');
         }
       }
 
       &.linkedin {
         &:before {
-          background-image: url('../../images/ic_linkedin-square.svg');
+          background-image: url('../../images/icons/ic_linkedin-square.svg');
         }
       }
     }
@@ -164,7 +166,7 @@ address {
     @include hide-text();
     width: 80px;
     height: 80px;
-    background: url('../../images/ic_chatbubble.svg') no-repeat;
+    background: url('../../images/icons/ic_chatbubble.svg') no-repeat;
     background-size: 80px;
 
     @include mq('tablet') {
