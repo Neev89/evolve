@@ -2,8 +2,6 @@ import React from 'react'
 
 import MapImg from "../../images/map.png"
 import ContactBg from "../../images/contact-bg-shape.png"
-import LinkedinIcon from "../../images/icons/ic_linkedin-square.svg"
-
 
 const Contact = () => (
     <section className="section contact">

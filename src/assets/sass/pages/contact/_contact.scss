@@ -104,7 +104,7 @@
 
       &.linkedin {
         &:before {
-          background-image: url('../../images/icons/ic_linkedin-square.svg');
+          background-image: url('../../images/icons/ic_linkedin-square.png');
         }
       }
     }
@@ -160,18 +160,21 @@ address {
   }
 
   .chat-bubble {
-    top: -60px;
-    right: -10px;
+    top: -25px;
+    right: 0;
     position: absolute;
     @include hide-text();
-    width: 80px;
-    height: 80px;
-    background: url('../../images/icons/ic_chatbubble.svg') no-repeat;
-    background-size: 80px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $light-green url('../../images/icons/ic_chatbubble.png') no-repeat center;
+    background-size: 20px;
 
-    @include mq('tablet') {
-      top: -50px;
-      right: 0;
+    @include mq('tablet-wide') {
+      top: -60px;
+      width: 70px;
+      height: 70px;
+      background-size: 35px;
     }
   }
 }
