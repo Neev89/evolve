@@ -56,12 +56,12 @@
   @include button-variant($white, $black, $black);
   &.button-primary {
     //@include button-size(23px, 70px, 24px, 33px, 50px);
-    @include button-size(12px, 25px, 16px, 24px, 50px);
+    @include button-size(4px, 16px, 12px, 17px, 50px);
     @include button-variant($white, $light-green, $light-green);
     font-weight: normal;
 
     @include mq('tablet') {
-      @include button-size(20px, 50px, 20px, 28px, 50px);
+      @include button-size(24px, 80px, 24px, 33px, 50px);
     }
 
     &.button-border {

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="236px" viewBox="0 0 256 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>gitlab</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logos/gitlab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gitlab" fill-rule="nonzero">
+            <polygon id="Shape" fill="#E24329" points="128.075 236.075 175.179 91.105 80.97 91.105 128.074 236.075"></polygon>
+            <polygon id="Shape" fill="#FC6D26" points="128.075 236.074 80.97 91.104 14.956 91.104"></polygon>
+            <path d="M14.956,91.104 L0.642,135.16 C-0.663640483,139.17789 0.766305007,143.579555 4.184,146.063 L128.075,236.075 L14.955,91.105 L14.956,91.104 Z" id="Shape" fill="#FCA326"></path>
+            <path d="M14.956,91.105 L80.97,91.105 L52.601,3.79 C51.141,-0.703 44.785,-0.702 43.326,3.79 L14.956,91.105 Z" id="Shape" fill="#E24329"></path>
+            <polygon id="Shape" fill="#FC6D26" points="128.075 236.074 175.179 91.104 241.194 91.104 128.074 236.074"></polygon>
+            <path d="M241.194,91.104 L255.508,135.16 C256.813429,139.178107 255.383064,143.579823 251.965,146.063 L128.075,236.075 L241.194,91.105 L241.194,91.104 Z" id="Shape" fill="#FCA326"></path>
+            <path d="M241.194,91.105 L175.179,91.105 L203.549,3.79 C205.009,-0.703 211.365,-0.702 212.824,3.79 L241.194,91.105 Z" id="Shape" fill="#E24329"></path>
+        </g>
+    </g>
+</svg>

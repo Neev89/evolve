@@ -4,4 +4,32 @@
   @include mq('tablet') {
     padding: 40px 20px;
   }
+
+  @include mq('inner') {
+    max-width: 1176px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .site-logo {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("../../images/ic_mini-logo.svg") no-repeat;
+    background-size: 32px;
+
+    img {
+      display: none;
+    }
+
+    @include mq('tablet') {
+      width: auto;
+      height: auto;
+      background: none;
+
+      img {
+        display: block;
+      }
+    }
+  }
 }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>principle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#C063D5" offset="0%"></stop>
+            <stop stop-color="#5A1AA9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M91.6932782,241.255763 C95.8699124,239.232216 98.75,234.952448 98.75,230 C98.75,223.096441 93.1535594,217.5 86.25,217.5 C85.3938354,217.5 84.5577749,217.586076 83.75,217.750045 L83.75,130.933494 C83.75,92.4488612 114.877214,61.25 153.272246,61.25 L153.905241,61.25 C192.471471,61.25 223.241771,92.7115504 222.475681,131.360462 L178.835078,130.491428 L178.859397,129.264538 L222.5,130.133572 C221.747671,168.08824 190.609668,199.375 153.588743,199.375 C141.535346,199.375 131.764136,189.581229 131.764136,177.5 C131.764136,165.418771 141.535346,155.625 153.588743,155.625 C166.621521,155.625 178.574956,143.614459 178.859397,129.264538 L222.5,130.133572 L222.475681,131.360462 L178.835078,130.491428 C179.115589,116.339813 168.024926,105 153.905241,105 L153.272246,105 C138.983939,105 127.399215,116.61139 127.399215,130.933494 L127.399215,224.375 C127.399215,236.456229 117.628005,246.25 105.574607,246.25 C100.301781,246.25 95.4656903,244.375791 91.6932782,241.255763 Z" id="path-3"></path>
+        <filter x="-2.9%" y="-2.2%" width="105.8%" height="104.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.42017663 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="153.75" cy="177.5" r="13.75"></circle>
+        <filter x="-18.2%" y="-14.5%" width="136.4%" height="136.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.159703351 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logos/principle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="principle">
+            <circle id="Oval-1" fill="url(#linearGradient-1)" cx="150" cy="150" r="150"></circle>
+            <g id="Combined-Shape" fill-rule="nonzero">
+                <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            </g>
+            <g id="Oval-2-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

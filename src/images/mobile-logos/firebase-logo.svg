@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="351px" viewBox="0 0 256 351" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>firebase-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logos/firebase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="firebase-1">
+            <path d="M0,282.998 L2.123,280.026 L102.527,89.512 L102.739,87.495 L58.48,4.358 C54.77,-2.606 44.33,-0.845 43.114,6.951 L0,282.998 Z" id="Shape" fill="#FFC24A" fill-rule="nonzero"></path>
+            <g id="a-link" transform="translate(1.000000, 1.000000)" fill="#FFA712">
+                <path d="M0.253,279.732 L1.858,276.601 L101.211,88.083 L57.061,4.608 C53.392,-2.283 44.074,-0.526 42.87,7.188 L0.253,279.732 Z" id="a"></path>
+            </g>
+            <path d="M135.005,150.38 L167.96,116.63 L134.995,53.7 C131.866,47.743 123.129,47.725 120.033,53.7 L102.42,87.287 L102.42,90.147 L135.004,150.38 L135.005,150.38 Z" id="Shape" fill="#F4BD62" fill-rule="nonzero"></path>
+            <g id="c-link" transform="translate(102.000000, 50.000000)" fill="#FFA50E">
+                <path d="M32.417,98.974 L64.456,66.162 L32.417,5.155 C29.375,-0.636 21.984,-1.243 18.974,4.565 L1.269,38.674 L0.739,40.418 L32.417,98.974 Z" id="c"></path>
+            </g>
+            <polygon id="Shape" fill="#F6820C" fill-rule="nonzero" points="0 282.998 0.962 282.03 4.458 280.61 132.935 152.61 134.563 148.179 102.513 87.105"></polygon>
+            <path d="M139.121,347.551 L255.396,282.704 L222.192,78.209 C221.153,71.811 213.304,69.282 208.724,73.869 L0,282.998 L115.608,347.546 C122.91442,351.625268 131.812846,351.627161 139.121,347.551" id="Shape" fill="#FDE068" fill-rule="nonzero"></path>
+            <path d="M254.354,282.16 L221.402,79.218 C220.372,72.868 213.844,70.241 209.299,74.794 L1.29,282.6 L115.629,346.508 C122.879651,350.556407 131.710268,350.558678 138.963,346.514 L254.355,282.159 L254.354,282.16 Z" id="Shape" fill="#FCCA3F" fill-rule="nonzero"></path>
+            <path d="M139.12,345.64 C131.812105,349.715789 122.914161,349.713896 115.608,345.635 L0.931,282.015 L0.001,282.998 L115.608,347.546 C122.91442,351.625268 131.812846,351.627161 139.121,347.551 L255.396,282.704 L255.111,280.952 L139.121,345.641 L139.12,345.64 Z" id="Shape" fill="#EEAB37" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

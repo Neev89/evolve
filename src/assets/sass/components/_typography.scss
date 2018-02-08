@@ -18,8 +18,8 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: normal;
 
   @include mq('tablet') {
@@ -78,10 +78,15 @@ abbr[title]:hover {
 }
 
 p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 10px;
+  line-height: 21px;
 
   @include mq('tablet') {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  @include mq('tablet-wide') {
     font-size: 18px;
     line-height: 35px;
   }

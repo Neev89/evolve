@@ -1,25 +1,79 @@
 {
-  "frontPage": {
+  "front": {
     "heroTitle": "Building effective distribution.",
-    "whatWeDo": {
-      "description": "Evolve was founded to build technology platforms that enable FMCG distribution businesses to streamline and optimize operations",
-      "linkText": [
-        {
-          "text": "Continuously monitor and measure visibility"
-        },
-        {
-          "text": "Provide a wealth of metrics and reporting capabilities at a granular level"
-        },
-        {
-          "text": "Standardize and drive compliance in sales fundamentals, merchandising, billing and delivery"
-        },
-        {
-          "text": "Develop right GTM plans"
-        },
-        {
-          "text": "Effectively execute and manage sales and market support activities"
-        }
-      ]
+    "whatWeDoTitle" : "What we do",
+    "whatWeDoDescription" : "Evolve was founded to build technology platforms that enable FMCG distribution businesses to streamline and optimize operations.",
+    "techTitle" : "Technologies we use",
+    "techDescription" : "Our mission is to drive the transformation in FMCG distribution through a combination of process re-engineering, introduction and application of information technology,automation and artificial intelligence to deliver efficiency for our customers.",
+    "hiringTitle" : "We’re hiring",
+    "hiringDescription" : "Evolve is looking for talented individuals to join our team. We welcome individuals looking to grow and expand their horizons.",
+    "contactTitle" : "Contact",
+    "contactDescription" : "Find us on Google Maps"
+  },
+  "whatWeDo": [
+    {
+      "linkText": "Develop right GTM plans"
+    },
+    {
+      "linkText": "Standardize and drive compliance in sales fundamentals, merchandising, billing and delivery"
+    },
+    {
+      "linkText": "Continuously monitor and measure visibility"
+    },
+    {
+      "linkText": "Effectively execute and manage sales and market support activities"
+    },
+    {
+      "linkText": "Provide a wealth of metrics and reporting capabilities at a granular level"
     }
-  }
+  ],
+  "areasInterest": [
+    {
+      "text": "Distributed_Computing"
+    },
+    {
+      "text": "SaaS"
+    },
+    {
+      "text": "Data_Engineering"
+    },
+    {
+      "text": "Cloud_Storage"
+    },
+    {
+      "text": "Kubernetes"
+    },
+    {
+      "text": "Cloud_Computing"
+    },
+    {
+      "text": "Distributed_Computing"
+    },
+    {
+      "text": "Deep_Learning"
+    },
+    {
+      "text": "Artificial_Learning"
+    },
+    {
+      "text": "Data_Visualization"
+    }
+  ],
+  "socialLink": [
+    {
+      "name" : "location",
+      "link": "",
+      "text": "7th Floor, Trade Tower, Thapathali, Kathmandu"
+    },
+    {
+      "name" : "mail",
+      "link": "mailto:info@evolveasia.co",
+      "text": "info@evolveasia.co"
+    },
+    {
+      "name" : "linkedin",
+      "link": "https://www.linkedin.com/company/13624262/",
+      "text": "Linkedin"
+    }
+  ]
 }

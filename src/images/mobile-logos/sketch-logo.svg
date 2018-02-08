@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="86px" viewBox="0 0 95 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logos/sketchapp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sketch-2" fill-rule="nonzero">
+            <g id="a-link" transform="translate(0.170000, 30.901000)" fill="#EA6C00">
+                <polygon id="a" points="19.131 0 47.231 55 0 0"></polygon>
+            </g>
+            <g id="b-link" transform="translate(70.640000, 58.401000) scale(-1, 1) translate(-70.640000, -58.401000) translate(46.640000, 30.901000)" fill="#EA6C00">
+                <polygon id="b" points="19.131 0 47.231 55 0 0"></polygon>
+            </g>
+            <g id="c-link" transform="translate(19.300000, 30.901000)" fill="#FDAD00">
+                <polygon id="c" points="0 0 56.2 0 28.1 55"></polygon>
+            </g>
+            <g id="d-link" transform="translate(19.300000, 0.420000)" fill="#FDD231">
+                <polygon id="d" points="28.1 0 1.479 2.814 0 30.481"></polygon>
+            </g>
+            <g id="e-link" transform="translate(61.000000, 15.920000) scale(-1, 1) translate(-61.000000, -15.920000) translate(46.500000, 0.420000)" fill="#FDD231">
+                <polygon id="e" points="28.1 0 1.479 2.814 0 30.481"></polygon>
+            </g>
+            <g id="f-link" transform="translate(84.140000, 17.234000) scale(-1, 1) translate(-84.140000, -17.234000) translate(73.640000, 3.234000)" fill="#FDAD00">
+                <polygon id="f" points="0 27.667 20.61 0 19.131 27.667"></polygon>
+            </g>
+            <g id="g-link" transform="translate(0.170000, 3.234000)" fill="#FDAD00">
+                <polygon id="g" points="0 27.667 20.61 0 19.131 27.667"></polygon>
+            </g>
+            <g id="h-link" transform="translate(19.300000, 0.420000)" fill="#FEEEB7">
+                <polygon id="h" points="28.1 0 0 30.481 56.2 30.481"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
