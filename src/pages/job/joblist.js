@@ -22,8 +22,12 @@ const JobsSection = (props) => {
             <section className="job-wrap">
                 <div className="job-wrap__inner">
                     <div className="job-heading">
-                        <h1>Jobs</h1>
-                        <p>Evolve is looking for talented individuals to join our team. We welcome individuals looking to grow and expand their horizons.</p>
+                        <h1>Careers</h1>
+                        <p>Evolve is growing and looking for talented individuals to help us on our mission to disrupt an entire industry, here at home.</p>
+                        <p>We’re building a strong team of amazing individuals. Individuals who want to find a purpose in their work. We have a common interest in technology and good design, exploring our passion in finding solutions to hard problems.</p>
+                        <p>We work hard and have fun while doing it. And then we go home. That balance is important: It enables us to do the best work of our lives.</p>
+                        <p>As a result, we are creating a place where as individuals, we are breaking our boundaries and expanding our horizons. All the while working alongside people we respect and admire.</p>
+                        <p>Work with us.</p>
                     </div>
                     <div className="job-image">
                         <img src={JobBannerShape} alt="Job BannerImg"/>

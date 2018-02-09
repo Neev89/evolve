@@ -79,6 +79,7 @@
     @include mq('tablet-wide') {
       max-width: 650px;
       padding: 0;
+      left: 60px;
       font-size: 64px;
       line-height: 95px;
     }
