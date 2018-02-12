@@ -33,7 +33,7 @@ const JobDetail = (props) => {
                         </div>
                         <div className="application-form">
                             <h3 className="form__title">Fill up the form to apply</h3>
-                            <form method="post" action="" className="form__inline">
+                            <form name="application" netlify className="form__inline">
                                 <div className="row">
                                     <div className="col-xsmall-12 col-small-6">
                                         <div className="form-item">
