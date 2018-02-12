@@ -81,7 +81,7 @@ const Technologies = (props) => {
                             <div className="technologies__inner right">
                                 <div className="platform">
                                     <div className="content">
-                                        <h6>Mobile Development</h6>
+                                        <h6>Mobile platform</h6>
                                         <ul>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="Android"><img src={AndroidLogo} alt="Android Logo"/></span></li>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="IOS"><img src={IosLogo} alt="IOS Logo"/></span></li>
@@ -91,7 +91,7 @@ const Technologies = (props) => {
                                         </ul>
                                     </div>
                                     <div className="content">
-                                        <h6>Web Development</h6>
+                                        <h6>Web Platform</h6>
                                         <ul>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="React Js"><img src={ReactLogo} alt="ReactJs Logo"/></span></li>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="Angular Js"><img src={AngularLogo} alt="AngularJs Logo"/></span></li>
@@ -121,7 +121,7 @@ const Technologies = (props) => {
                                         </ul>
                                     </div>
                                     <div className="content">
-                                        <h6>Project Management & Collaboration</h6>
+                                        <h6>Product, Project Management & Collaboration</h6>
                                         <ul>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="Gitlab"><img src={GitlabLogo} alt="Gitlab Logo"/></span></li>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="Jira"><img src={JiraLogo} alt="Jira Logo"/></span></li>
@@ -130,7 +130,7 @@ const Technologies = (props) => {
                                         </ul>
                                     </div>
                                     <div className="content">
-                                        <h6>UI/UX</h6>
+                                        <h6>Product Design</h6>
                                         <ul>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="Sketch"><img src={SketchLogo} alt="Sketch Logo"/></span></li>
                                             <li><span data-tooltip-conf="bottom no-arrow" data-tooltip="Principle"><img src={PrincipleLogo} alt="Principle Logo"/></span></li>

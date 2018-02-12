@@ -209,6 +209,7 @@ address {
     background: $light-green url('../../images/icons/ic_chatbubble.png') no-repeat center;
     background-size: 35px;
     box-shadow: 0 8px 8px 0 rgba(0,85,63,0.10), 0 8px 16px 0 rgba(140,228,205,0.41);
+    display: none;
 
     @include mq('tablet') {
       top: -30px;

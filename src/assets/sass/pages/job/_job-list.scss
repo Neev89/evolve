@@ -2,61 +2,63 @@
   position: relative;
 
   @include e('inner') {
-    max-width: 1044px;
-    margin: 0 auto;
-    padding: 0 20px;
+
+    .top-section {
+      position: relative;
+      height: 300px;
+
+      @include mq('tablet') {
+        height: 600px;
+      }
+
+      .title {
+        position: absolute;
+        top: 50%;
+        color: #fff;
+        left: 0;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        font-weight: 600;
+      }
+    }
+
+    .content {
+      max-width: 1170px;
+      margin: 0 auto;
+      padding: 43px 80px;
+      border-radius: 8px;
+      margin-top: -120px;
+      position: relative;
+      background: #fff;
+    }
   }
 }
 
 .job-heading {
-  max-width: 450px;
-  padding: 50px 0 100px;
-
-  @include mq('tablet') {
-    padding: 50px 0 100px;
-  }
+  margin-bottom: 80px;
 
   @include mq('tablet-wide') {
-    max-width: 635px;
-    padding: 100px 0 200px;
+    margin-bottom: 145px;
   }
 
-  h1 {
-    margin-bottom: 20px;
-
-    @include mq('tablet') {
-      margin-bottom: 48px;
-    }
+  h3 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 100px;
+    font-weight: normal;
   }
 
   p {
     margin-bottom: 20px;
 
+    @include mq('tablet-wide') {
+      margin-bottom: 30px;
+    }
+
     &:last-child {
       margin-bottom: 0;
     }
-  }
-}
-
-.job-image {
-  position: absolute;
-  top: -135px;
-  right: 0;
-  width: 120px;
-
-  img {
-    width: 100%;
-  }
-
-  @include mq('tablet') {
-    top: -330px;
-    right: -60px;
-    width: 400px;
-  }
-
-  @include mq('tablet-wide') {
-    top: -350px;
-    width: 500px;
   }
 }
 
@@ -107,21 +109,21 @@
         }
       }
 
-      &#senior-front-end-engineer {
+      &#senior-front-end-engineer, &#software-engineer-web {
         &:before {
           background: #8E43E7 url("../../images/position-icons/ic_devices.png") no-repeat center;
           background-size: 24px;
         }
       }
 
-      &#mobile-platform-engineer {
+      &#senior-software-mobile-engineer {
         &:before {
           background: #B84592 url("../../images/position-icons/ic_phone.png") no-repeat center;
           background-size: 24px;
         }
       }
 
-      &#product-manager {
+      &#product-manager, &#product-designer {
         &:before {
           background: #FF4F81 url("../../images/position-icons/ic_layers.png") no-repeat center;
           background-size: 24px;
@@ -135,14 +137,14 @@
         }
       }
 
-      &#qa-engineer {
+      &#qa-engineer, &#technical-recruiter {
         &:before {
           background: #FFC168 url("../../images/position-icons/ic_settings.png") no-repeat center;
           background-size: 24px;
         }
       }
 
-      &#devops-engineer {
+      &#devops-engineer, &#product-security-engineer {
         &:before {
           background: #8E43E7 url("../../images/position-icons/ic_inclusive.png") no-repeat center;
           background-size: 24px;
@@ -156,7 +158,7 @@
         }
       }
 
-      &#customer-support-engineer {
+      &#customer-support-engineer, &#customer-success-executive {
         &:before {
           background: #FF4F81 url("../../images/position-icons/ic_supervisor.png") no-repeat center;
           background-size: 24px;

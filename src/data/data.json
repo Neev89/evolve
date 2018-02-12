@@ -1,6 +1,7 @@
 {
   "front": {
     "heroTitle": "Building effective distribution.",
+    "heroDescription": "We are a tech startup looking to disrupt the USD 2 Billion FMCG industry in Nepal and then beyond. We are partnering in this journey with global market leaders in the FMCG sector.  Our technologies combine sales and distribution expertise with innovation in cloud and mobile platforms to help businesses drive efficiency and growth while driving compliance.",
     "whatWeDoTitle" : "What we do",
     "whatWeDoDescription" : "Evolve was founded to build technology platforms that enable FMCG distribution businesses to streamline and optimize operations.",
     "techTitle" : "Technologies we use",
@@ -29,10 +30,13 @@
   ],
   "areasInterest": [
     {
-      "text": "Distributed_Computing"
+      "text": "Cloud_Computing"
     },
     {
       "text": "SaaS"
+    },
+    {
+      "text": "Kubernetes"
     },
     {
       "text": "Data_Engineering"
@@ -41,10 +45,10 @@
       "text": "Cloud_Storage"
     },
     {
-      "text": "Kubernetes"
+      "text": "Data_Warehouse"
     },
     {
-      "text": "Cloud_Computing"
+      "text": "Product_Design"
     },
     {
       "text": "Distributed_Computing"
@@ -57,6 +61,12 @@
     },
     {
       "text": "Data_Visualization"
+    },
+    {
+      "text": "Agile_Practise"
+    },
+    {
+      "text": "Material_Design"
     }
   ],
   "socialLink": [

@@ -9,6 +9,7 @@ import Technologies from "../components/Technologies";
 
 const IndexPage = (props) => {
         const heroTitle = props.data.allDataJson.edges[0].node.front.heroTitle;
+        const heroDescription = props.data.allDataJson.edges[0].node.front.heroDescription;
         const whatWeDoTitle = props.data.allDataJson.edges[0].node.front.whatWeDoTitle;
         const whatWeDoDescription = props.data.allDataJson.edges[0].node.front.whatWeDoDescription;
         const whatWeDoText = props.data.allDataJson.edges[0].node.whatWeDo;
@@ -24,7 +25,7 @@ const IndexPage = (props) => {
         return (
             <div>
                 <div className="main-content__inner">
-                    <HeroBanner title={heroTitle}/>
+                    <HeroBanner title={heroTitle} description={heroDescription}/>
                     <Whatwedo title={whatWeDoTitle} description={whatWeDoDescription} information={whatWeDoText}/>
                     <Technologies title={techTitle} description={techDescription} areasText={areasInterestText}/>
                     <Hiring title={hiringTitle} description={hiringDescription}/>
@@ -44,6 +45,7 @@ query IndexQuery {
         node {
             front {
                 heroTitle
+                heroDescription
                 whatWeDoTitle
                 whatWeDoDescription
                 techTitle

@@ -43,7 +43,6 @@
 //Hero-Banner-Section
 .hero-section {
   position: relative;
-  height: 170px;
 
   @include mq('tablet') {
     height: calc(100vh - 130px);
@@ -54,15 +53,24 @@
     position: absolute;
   }
 
-  h1 {
-    max-width: 300px;
-    @include center-translate(vertical);
-    padding: 0 20px;
+  .hero-content {
+    max-width: 670px;
+    position: relative;
     z-index: 1;
-    left: 0;
+    padding-top: 50px;
+    padding-right: 40px;
+
+    @include mq('tablet') {
+      padding-top: 70px;
+      padding-right: 0;
+    }
+  }
+
+  h1 {
     font-size: 18px;
     line-height: 25px;
     font-weight: 600;
+    margin-bottom: 24px;
 
     @include mq('phone-wide') {
       font-size: 50px;
@@ -70,19 +78,19 @@
     }
 
     @include mq('tablet') {
-      max-width: 500px;
-      left: 20px;
       font-size: 60px;
       line-height: 70px;
     }
 
     @include mq('tablet-wide') {
-      max-width: 650px;
       padding: 0;
-      left: 60px;
       font-size: 64px;
-      line-height: 95px;
+      line-height: 85px;
     }
+  }
+
+  p {
+    margin-bottom: 0;
   }
 }
 
@@ -129,9 +137,11 @@
   padding: 100px 0 40px;
   text-align: center;
   position: relative;
+  margin-top: 80px;
 
   @include mq('tablet') {
     padding: 200px 20px 80px;
+    margin-top: 0;
   }
 
   .what-we-do-wrap {
@@ -165,8 +175,6 @@
         width: 100%;
       }
     }
-
-
 
     @include mq('tablet-wide') {
       width: auto;
@@ -426,7 +434,7 @@
       position: absolute;
       left: 0;
       bottom: -100px;
-      width: 300px;
+      width: 500px;
       display: block;
     }
 
@@ -559,11 +567,10 @@
 
       li {
         width: 33.33%;
-        padding: 20px;
+        padding: 30px;
 
         @include mq('tablet') {
           width: 20%;
-          padding: 30px;
         }
       }
 
@@ -615,6 +622,7 @@
 
     @include mq('tablet-wide') {
       width: 600px;
+      right: 0;
     }
 
     img {
