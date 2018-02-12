@@ -31,63 +31,7 @@ const JobDetail = (props) => {
                             <h1>{post.frontmatter.title}</h1>
                             <div dangerouslySetInnerHTML={{__html: post.html}}/>
                         </div>
-                        <div className="application-form">
-                            <h3 className="form__title">Fill up the form to apply</h3>
-                            {/*<form name="application" netlify className="form__inline">*/}
-                                {/*<div className="row">*/}
-                                    {/*<div className="col-xsmall-12 col-small-6">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Full Name</label>*/}
-                                            {/*<input type="text" name="name"/>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12 col-small-6">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Email</label>*/}
-                                            {/*<input type="email" name="email"/>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12 col-small-6">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Phone</label>*/}
-                                            {/*<input type="number" name="phone"/>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12 col-small-6">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Linkedin Profile Link</label>*/}
-                                            {/*<input type="text" name="profile"/>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Resume</label>*/}
-                                            {/*<div className="drop-file">*/}
-                                                {/*<input type="text" name="resume" className="input-file-upload"/>*/}
-                                                {/*<button type="submit" className="button button-info">Attach</button>*/}
-                                            {/*</div>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Why do you want to work at Evolve?</label>*/}
-                                            {/*<textarea rows="6"></textarea>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12">*/}
-                                        {/*<div className="form-item">*/}
-                                            {/*<label>Additional Information <span className="desc block">Feel free to add any additional information here :)</span></label>*/}
-                                            {/*<textarea rows="6"></textarea>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                    {/*<div className="col-xsmall-12">*/}
-                                        {/*<div className="form-item form-buttons">*/}
-                                            {/*<button type="submit" className="button button-primary">Apply</button>*/}
-                                        {/*</div>*/}
-                                    {/*</div>*/}
-                                {/*</div>*/}
-                            {/*</form>*/}
-                        </div>
+
                         <form name="contact" netlify>
                             <p>
                                 <label>Your Name: <input type="text" name="name"/></label>
