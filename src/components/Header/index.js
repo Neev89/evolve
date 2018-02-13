@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 
 import Logo from "../../images/ic_logo.svg"
 
-
 const Header = () => {
     return (
         <header className="header">

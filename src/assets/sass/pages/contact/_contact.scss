@@ -97,7 +97,7 @@
       @include mq('tablet') {
         font-size: 16px;
         line-height: 24px;
-        padding-left: 50px;
+        padding-left: 35px;
       }
 
       &:before {
@@ -138,8 +138,25 @@
       }
 
       &.linkedin {
+        background: #0077B5;
+        color: #fff;
+        padding: 15px 32px 15px 65px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 14px;
+
+        &:hover, &:focus {
+          background: darken(#0077B5, 5%);
+        }
+
         &:before {
           background-image: url('../../images/icons/ic_linkedin-square.png');
+          top: 17px;
+          filter: brightness(0) invert(1);
+          left: 35px;
+          background-size: 18px;
+          width: 18px;
+          height: 23px;
         }
       }
     }
@@ -206,16 +223,17 @@ address {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: $light-green url('../../images/icons/ic_chatbubble.png') no-repeat center;
-    background-size: 35px;
+    background: $light-green url('../../images/icons/ic_up-arrow.svg') no-repeat center;
+    background-size: 28px;
     box-shadow: 0 8px 8px 0 rgba(0,85,63,0.10), 0 8px 16px 0 rgba(140,228,205,0.41);
-    display: none;
+
+    &:hover, &:focus {
+      background: darken($light-green, 5%) url('../../images/icons/ic_up-arrow.svg') no-repeat center;
+      background-size: 28px;
+    }
 
     @include mq('tablet') {
       top: -30px;
-      width: 70px;
-      height: 70px;
-      background-size: 35px;
       left: 350px;
     }
   }

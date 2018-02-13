@@ -64,6 +64,11 @@
       padding-top: 70px;
       padding-right: 0;
     }
+
+    @include mq('desktop') {
+      max-width: 768px;
+    }
+
   }
 
   h1 {
@@ -130,6 +135,15 @@
   @include mq('desktop') {
     right: -100px;
   }
+
+  @include mq('desktop-1376') {
+    right: -200px;
+  }
+
+  @include mq('desktop-wide') {
+    right: -310px;
+  }
+
 }
 
 //What-we-do-section

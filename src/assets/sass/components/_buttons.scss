@@ -73,7 +73,7 @@
     }
   }
   &.button-plain {
-    @include button-size(15px, 47px, 14px, 19px, 30px);
+    @include button-size(15px, 30px, 14px, 19px, 30px);
     @include button-variant($black, rgba(245, 247, 249, 0.2), rgba(151, 151, 151, 0.2));
     font-weight: 600;
 

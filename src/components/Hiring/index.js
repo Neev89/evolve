@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
 
-
+//Images
 import HiringShape from '../../images/banner/hiring-bg-shape.png'
 
 const Hiring = (props) => {

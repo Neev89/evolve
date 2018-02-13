@@ -23,7 +23,6 @@ const Contact = (props) => {
                                 <p>{description}</p>
                                 <img src={MapImg} alt="Contact Map"/>
                             </div>
-
                         </div>
                         <div className="col-xsmall-12 col-small-6">
                             <div className="information">

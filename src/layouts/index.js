@@ -6,26 +6,26 @@ import Header from '../components/Header'
 
 import '../assets/sass/app.scss'
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="Evolve Pvt Ltd"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <div className="site">
-        <Header />
-        <main className="main-content">
-            {children()}
-        </main>
+const TemplateWrapper = ({children}) => (
+    <div>
+        <Helmet
+            title="Evolve Pvt Ltd"
+            meta={[
+                {name: 'description', content: 'Tech company'},
+                {name: 'keywords', content: 'design,tech,product'},
+            ]}
+        />
+        <div className="site">
+            <Header/>
+            <main className="main-content">
+                {children()}
+            </main>
+        </div>
     </div>
-  </div>
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+    children: PropTypes.func,
 }
 
 export default TemplateWrapper

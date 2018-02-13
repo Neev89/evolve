@@ -4,6 +4,9 @@ import Helmet from 'react-helmet'
 //Images
 import JobBannerShape from '../images/banner/job-list-banner.jpg'
 
+//Applybtn
+import ApplyBtn from '../components/ApplyBtn'
+
 //Contact
 import Contact from '../components/Contact'
 
@@ -17,7 +20,12 @@ const JobDetail = (props) => {
 
     return (
         <div>
-            <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}/>
+            <Helmet
+                title={`${post.frontmatter.title} | ${siteTitle}`}
+                bodyAttributes={{
+                    class: 'job-section'
+                }}
+            />
             <section className="job-wrap detail">
                 <div className="job-wrap__inner">
                     <div className="top-section">
@@ -30,22 +38,8 @@ const JobDetail = (props) => {
                         <div className="job-heading icon" id={post.frontmatter.position}>
                             <h1>{post.frontmatter.title}</h1>
                             <div dangerouslySetInnerHTML={{__html: post.html}}/>
+                            <ApplyBtn/>
                         </div>
-
-                        <form name="contact" netlify>
-                            <p>
-                                <label>Your Name: <input type="text" name="name"/></label>
-                            </p>
-                            <p>
-                                <label>Your Email: <input type="email" name="email"/></label>
-                            </p>
-                            <p>
-                                <label>Message: <textarea name="message"></textarea></label>
-                            </p>
-                            <p>
-                                <button type="submit">Send</button>
-                            </p>
-                        </form>
                     </div>
                 </div>
             </section>
