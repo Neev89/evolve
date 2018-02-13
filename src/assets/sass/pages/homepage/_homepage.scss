@@ -58,7 +58,7 @@
     position: relative;
     z-index: 1;
     padding-top: 50px;
-    padding-right: 40px;
+    padding-right: 30px;
 
     @include mq('tablet') {
       padding-top: 70px;
@@ -581,10 +581,11 @@
 
       li {
         width: 33.33%;
-        padding: 30px;
+        padding: 15px 35px;
 
         @include mq('tablet') {
           width: 20%;
+          padding: 30px;
         }
       }
 
@@ -625,7 +626,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    right: -180px;
+    right: -195px;
     height: 100%;
 
     @include mq('tablet') {

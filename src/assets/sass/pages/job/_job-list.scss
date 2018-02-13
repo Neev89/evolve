@@ -1,12 +1,20 @@
 .job-wrap {
   position: relative;
-  margin-top: -130px;
+  margin-top: -75px;
+
+  @include mq('tablet') {
+    margin-top: -130px;
+  }
 
   @include e('inner') {
 
     .top-section {
       position: relative;
       height: 300px;
+
+      img {
+        height: 100%;
+      }
 
       @include mq('tablet') {
         height: 600px;
@@ -30,27 +38,39 @@
 
     .content {
       max-width: 1170px;
-      margin: -120px auto 0;
+      margin: -70px auto 0;
       border-radius: 8px;
-      padding: 43px 80px;
+      padding: 30px 20px;
       position: relative;
       background: #fff;
+
+      @include mq('tablet') {
+        margin: -120px auto 0;
+        padding: 43px 80px;
+      }
     }
   }
 }
 
 .job-heading {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 
   @include mq('tablet-wide') {
     margin-bottom: 85px;
   }
 
   h3 {
-    font-size: 36px;
-    line-height: 51px;
-    margin-bottom: 100px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 25px;
     font-weight: normal;
+
+    @include mq('tablet') {
+      font-size: 36px;
+      line-height: 51px;
+      margin-bottom: 100px;
+    }
+
   }
 
   p {

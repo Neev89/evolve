@@ -145,18 +145,18 @@
         font-weight: 600;
         font-size: 14px;
 
-        &:hover, &:focus {
-          background: darken(#0077B5, 5%);
-        }
-
         &:before {
           background-image: url('../../images/icons/ic_linkedin-square.png');
-          top: 17px;
+          top: 12px;
           filter: brightness(0) invert(1);
           left: 35px;
           background-size: 18px;
           width: 18px;
           height: 23px;
+        }
+
+        &:hover, &:focus {
+          background: darken(#0077B5, 5%);
         }
       }
     }

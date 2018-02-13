@@ -91,10 +91,10 @@
       }
 
       h1 {
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
         font-weight: normal;
-        margin-bottom: 45px;
+        margin-bottom: 25px;
 
         @include mq('tablet') {
           font-size: 36px;
@@ -106,11 +106,17 @@
 
       h3 {
         position: relative;
-        font-size: 24px;
-        line-height: 33px;
+        font-size: 18px;
+        line-height: 26px;
         font-family: "Open Sans", sans-serif;
-        margin-top: 80px;
+        margin-top: 40px;
         margin-bottom: 16px;
+
+        @include mq('tablet') {
+          font-size: 24px;
+          line-height: 33px;
+          margin-top: 80px;
+        }
 
         &:after {
           content: '';
@@ -145,9 +151,15 @@
 
       ul {
         list-style: disc;
-        font-size: 18px;
-        line-height: 51px;
+        font-size: 10px;
+        line-height: 21px;
         padding-left: 20px;
+
+        @include mq('tablet') {
+          margin-bottom: 35px;
+          font-size: 16px;
+          line-height: 51px;
+        }
 
         li {
           margin-bottom: 10px;
@@ -160,6 +172,12 @@
     margin-top: 80px;
 
     .button {
+      padding: 12px 60px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    @include mq('tablet') {
       padding: 20px 80px;
       font-size: 22px;
       line-height: 30px;

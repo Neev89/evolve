@@ -29,16 +29,16 @@ const JobDetail = (props) => {
             <section className="job-wrap detail">
                 <div className="job-wrap__inner">
                     <div className="top-section">
-                        <div className="job-image">
-                            <img src={JobBannerShape} alt="Job BannerImg"/>
-                            <h1 className="title">Careers</h1>
-                        </div>
+                        <img src={JobBannerShape} alt="Job BannerImg"/>
+                        <h1 className="title">Careers</h1>
                     </div>
-                    <div className="content">
-                        <div className="job-heading icon" id={post.frontmatter.position}>
-                            <h1>{post.frontmatter.title}</h1>
-                            <div dangerouslySetInnerHTML={{__html: post.html}}/>
-                            <ApplyBtn/>
+                    <div className="content-wrap">
+                        <div className="content">
+                            <div className="job-heading icon" id={post.frontmatter.position}>
+                                <h1>{post.frontmatter.title}</h1>
+                                <div dangerouslySetInnerHTML={{__html: post.html}}/>
+                                <ApplyBtn/>
+                            </div>
                         </div>
                     </div>
                 </div>
