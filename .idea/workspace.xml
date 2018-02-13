@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c08cc0-7f91-4c6b-87eb-a2af931d0f85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/src/assets/sass/components/_buttons.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss" afterPath="$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/pages/header/_header.scss" afterPath="$PROJECT_DIR$/src/assets/sass/pages/header/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/pages/homepage/_homepage.scss" afterPath="$PROJECT_DIR$/src/assets/sass/pages/homepage/_homepage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/pages/job/_job-detail.scss" afterPath="$PROJECT_DIR$/src/assets/sass/pages/job/_job-detail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/pages/job/_job-list.scss" afterPath="$PROJECT_DIR$/src/assets/sass/pages/job/_job-list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/post.js" afterPath="$PROJECT_DIR$/src/templates/post.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +18,8 @@
           <file leaf-file-name="_job-detail.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/job/_job-detail.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="536">
-                  <caret line="176" column="24" lean-forward="true" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+                <state relative-caret-position="644">
+                  <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
                   <folding>
                     <element signature="e#84#2673#0" expanded="false" />
                     <element signature="e#890#1067#0" expanded="false" />
@@ -39,11 +33,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Contact/index.js">
+          <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="557">
-                  <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+                <state relative-caret-position="589">
+                  <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -134,11 +128,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/assets/sass/pages/header/_header.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/pages/homepage/_homepage.scss" />
-        <option value="$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/pages/job/_job-list.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/templates/post.js" />
         <option value="$PROJECT_DIR$/src/assets/sass/pages/job/_job-detail.scss" />
+        <option value="$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss" />
       </list>
     </option>
   </component>
@@ -257,12 +251,12 @@
       <workItem from="1518186397811" duration="625000" />
       <workItem from="1518445532589" duration="8529000" />
       <workItem from="1518520671356" duration="7020000" />
-      <workItem from="1518540398991" duration="2066000" />
+      <workItem from="1518540398991" duration="2259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85078000" />
+    <option name="totallyTimeSpent" value="85271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -690,60 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="149" column="20" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
-          <folding>
-            <marker date="1518542456000" expanded="true" signature="10:1150" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="80:108" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="116:302" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="248:298" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="311:465" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="359:461" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="417:455" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="488:517" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="526:553" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="584:611" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="623:907" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="632:903" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="807:897" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="924:1148" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="994:1144" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1160:2983" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1187:1214" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1221:2981" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1275:1309" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1317:2927" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1477:1566" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1583:2006" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="1869:1998" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2025:2249" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2044:2241" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2183:2231" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2264:2370" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2283:2362" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2389:2921" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2577:2832" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2859:2913" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2946:2977" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="2998:3131" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3104:3129" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3141:3166" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3189:3261" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3230:3259" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3274:4171" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3346:3366" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3372:3518" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3459:3514" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3529:3573" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3590:4169" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="3954:4093" ph="{...}" />
-            <marker date="1518542456000" expanded="true" signature="4121:4165" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/homepage/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -1028,18 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/job/_job-detail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="176" column="24" lean-forward="true" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
-          <folding>
-            <element signature="e#84#2673#0" expanded="false" />
-            <element signature="e#890#1067#0" expanded="false" />
-            <element signature="e#3302#3574#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -1060,10 +988,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/job/_job-detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
+          <folding>
+            <element signature="e#84#2673#0" expanded="false" />
+            <element signature="e#890#1067#0" expanded="false" />
+            <element signature="e#3302#3574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Contact/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="449">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <marker date="1518535965000" expanded="false" signature="7:161" ph="..." />
+            <marker date="1518535965000" expanded="true" signature="190:2513" ph="{...}" />
+            <marker date="1518535965000" expanded="true" signature="321:2505" ph="&lt;section/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="371:489" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="502:2486" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="630:2467" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="682:2444" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="728:1010" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="800:979" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1035:2417" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1107:2386" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1169:2074" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1231:2035" ph="&lt;address/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1347:1988" ph="&lt;ul/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1543:1845" ph="&lt;li/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="1612:1787" ph="&lt;a/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="2107:2351" ph="&lt;div/&gt;" />
+            <marker date="1518535965000" expanded="true" signature="2535:2631" ph="{&quot;title&quot;: PropTypes.string...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/pages/contact/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -153,6 +153,10 @@
           background-size: 18px;
           width: 18px;
           height: 23px;
+
+          @include mq('tablet') {
+            top: 17px;
+          }
         }
 
         &:hover, &:focus {
